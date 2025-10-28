@@ -1,0 +1,47 @@
+/* intro */
+section {
+  background-image: url("../assets/home/mobile/image-header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Tablet (>=768px) */
+@media (min-width: 768px) {
+  section {
+    background-image: url("../assets/home/tablet/image-header.jpg");
+  }
+}
+
+/* Desktop (>=1024px) */
+@media (min-width: 1024px) {
+  section {
+    background-image: url("../assets/home/desktop/image-hero.jpg");
+  }
+}
+
+/*  */
+/* products */
+.my-container .product-container {
+  background-image: url("../assets/home/desktop/pattern-circles.svg");
+  background-repeat: no-repeat;
+}
+
+.my-container .zx7-speeker {
+  background-image: url("../assets/home/mobile/image-speaker-zx7.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .my-container .zx7-speeker {
+    background-image: url("../assets/home/tablet/image-speaker-zx7.jpg");
+  }
+}
+@media (min-width: 1024px) {
+  .my-container .zx7-speeker {
+    background-image: url("../assets/home/desktop/image-speaker-zx7.jpg");
+  }
+}

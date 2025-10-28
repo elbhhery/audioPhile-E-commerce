@@ -1,0 +1,33 @@
+/* Small */
+@media (min-width: 768px) {
+  .my-container {
+    width: 750px;
+    margin: 0 auto;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .my-container {
+    width: 970px;
+    margin: 0 auto;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .my-container {
+    width: 1170px;
+    margin: 0 auto;
+  }
+}
+* {
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+button,
+a {
+  cursor: pointer;
+  font-weight: 500;
+}
+header a:hover {
+  color: #fbaf85;
+}
