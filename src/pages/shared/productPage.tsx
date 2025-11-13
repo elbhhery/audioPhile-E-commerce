@@ -30,8 +30,10 @@ interface CartItem {
   quantity: number;
 }
 export default function ProductPage() {
-  // quantity state
   const [quantity, setQuantity] = useState(1);
+  const navigate = useNavigate();
+  const { slug } = useParams();
+  const product = productsData.find((p) => p.slug === slug);
 
   // cart
   const handleAddToCart = (product?: Omit<CartItem, "quantity"> | CartItem) => {
@@ -52,11 +54,6 @@ export default function ProductPage() {
     loadCart();
     setQuantity(1);
   };
-  // vars
-  const navigate = useNavigate();
-  const { slug } = useParams();
-  const product = productsData.find((p) => p.slug === slug);
-  // api
 
   return (
     <>
