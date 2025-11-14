@@ -18,7 +18,7 @@ function App() {
         <Route path="/Speakers" element={<Speakers />} />
         <Route path="/EarPhones" element={<EarPhones />} />
         <Route path="/product/:slug" element={<ProductPage />} />
-        <Route path="/Checkout" element={<Checkout />} />
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
     </>
   );
