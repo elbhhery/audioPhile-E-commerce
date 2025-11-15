@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ProductsData from "../../assets/data/data.json";
+import ProductsData from "../../data.json";
 import "../../styles/global.css";
 function productList() {}
 export default function CategoryProducts({ category }) {

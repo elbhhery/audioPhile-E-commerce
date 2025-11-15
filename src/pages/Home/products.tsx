@@ -1,4 +1,4 @@
-import ProductsData from "../../assets/data/data.json";
+import ProductsData from "../../data.json";
 import { Link } from "react-router-dom";
 // mobile
 import zx9 from "../../assets/home/mobile/image-speaker-zx9.png";

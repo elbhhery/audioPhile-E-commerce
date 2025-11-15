@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Header from "./Header";
 import "../../styles/global.css";
 import "../../styles/home.css";
-import ProductsData from "../../assets/data/data.json";
+import ProductsData from "../../data.json";
 export default function Intro() {
   const product = ProductsData.find((p) => p.id === 4);
   return (

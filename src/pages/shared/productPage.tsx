@@ -1,7 +1,7 @@
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { useState } from "react";
 import priceFormat from "../../utils/priceFormat";
-import productsData from "../../assets/data/data.json";
+import productsData from "../../data.json";
 import CategoryHeader from "./categoryHeader";
 import { loadCart } from "../../utils/loadCart";
 // css files

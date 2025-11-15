@@ -1,6 +1,5 @@
 {
   "name": "audiophile-ecommerce-react",
-  "homepage": "https://elbhhery.github.io/audioPhile-E-commerce",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,9 +7,7 @@
     "dev": "vite",
     "lint": "eslint .",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.15",
